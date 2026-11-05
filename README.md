@@ -67,7 +67,7 @@ python app.py                    # serves on http://127.0.0.1:5000
 
 **2. Open the frontend**
 
-Open `frontend/index.html` in your browser, enter a postcode (for example `3500` for Mildura), and click **Get Disease Risk Forecast**.
+Open `frontend/index.html` in your browser, enter a postcode (for example `3000` for Melbourne), and click **Get Disease Risk Forecast**.
 
 The frontend reads its backend address from `API_BASE_URL` near the top of the `<script>` block in `index.html`. If you deploy the API somewhere else, point that constant to the deployed URL.
 
